@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sedanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#bgGrad)"/>
+  <ellipse cx="300" cy="275" rx="240" ry="25" fill="#cbd5e1"/>
+  <!-- Sedan Body -->
+  <path d="M 80 230 C 80 210, 110 205, 140 200 L 190 170 C 230 140, 270 135, 370 135 L 430 170 L 500 185 C 525 190, 535 210, 535 235 L 530 255 C 520 260, 500 260, 480 260 C 470 230, 430 230, 420 260 L 210 260 C 200 230, 160 230, 150 260 L 90 260 C 80 255, 80 240, 80 230 Z" fill="url(#sedanGrad)"/>
+  <!-- Windows -->
+  <path d="M 210 172 L 275 147 L 275 195 L 180 195 Z" fill="#93c5fd" opacity="0.85"/>
+  <path d="M 285 147 L 360 147 L 415 175 L 415 195 L 285 195 Z" fill="#93c5fd" opacity="0.85"/>
+  <!-- Wheels -->
+  <circle cx="180" cy="255" r="38" fill="#1e293b"/>
+  <circle cx="180" cy="255" r="22" fill="#94a3b8"/>
+  <circle cx="180" cy="255" r="10" fill="#0f172a"/>
+  <circle cx="450" cy="255" r="38" fill="#1e293b"/>
+  <circle cx="450" cy="255" r="22" fill="#94a3b8"/>
+  <circle cx="450" cy="255" r="10" fill="#0f172a"/>
+  <!-- Headlights -->
+  <polygon points="515,205 533,218 522,232 508,220" fill="#fef08a"/>
+  <polygon points="85,210 93,222 84,228 80,215" fill="#ef4444"/>
+  <text x="300" y="320" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#475569" text-anchor="middle">SEDAN CLASS</text>
+</svg>
